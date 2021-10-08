@@ -1,10 +1,4 @@
-# Volleyball_Lineup
-To address an issue of prominent loss of my intramural volleyball team, I took performance data from all (8) players on the team to find the most optimal rotation of individuals that would yield the highest win probability.
+# K-Nearest-Neighbors
+As a project for school, I had to take psudocode and a dataset, and create my own version of the K-Nearest-Neighbors algorithm. Uses the distance formula to calculate the distance between a given point and the rest of the points in the data set, then appends that point data and its data to a dictionary. Using the parameter "K" I deduce the k-amount of points that have the smallest distance to the point, then the classifying is up to whatever majority is favored!
 
-The league works as a game of four versus four. Each team has a minimum of four players and a max of 8. When a team wins a point and recieves the ball back to serve a rotation commences changing the entire team of 4.
-
-Our team having eight players there were {8!} (40,320) different combinations of orders that us players could be in. So crunching through all of them, then running averages on each rotation of 4 players in that given order. An overall team value was given to that team and stored in a dictionary with the team order as the key, and the overall team value as the value. After doing this 40,320 times, I go back to the dictionary of orders and values and take the max value of the data and that is the team that has the highest precentage of victory based on the stats.
-
-
-## Reflection
-This was super fun to work on and to spontaneously take on. I felt alot of joy getting to see my knowledge of python come into use randomly. All of this took the span of about a day, I will most definatley come back to veiw and improve this algorithm.
+This was a really fun school project to work on the further understand what happens behind the K-Nearest-Neighbors algorithm and it was a great test taster to see if I was going to enjoy ML. That answer is an astounding YES!
